@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: HassanOnsori/my-first-action@a5435fd
+      uses: HassanOnsori/my-first-action@a5435fdfe909157869971981f0ea82043606e4bd
       with:
         who-to-greet: 'THERE!!!'
     # Use the output from the `hello` step
